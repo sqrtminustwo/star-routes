@@ -1,0 +1,21 @@
+star-routes> test (suite: star-routes-test)
+
+Cases: 18  Tried: 0  Errors: 0  Failures: 0Cases: 18  Tried: 1  Errors: 0  Failures: 0Cases: 18  Tried: 2  Errors: 0  Failures: 0Cases: 18  Tried: 3  Errors: 0  Failures: 0                                           ### Failure in: 0:Parser tests:0:Route parser test:3
+test/TestHelpFunctions.hs:8
+Expected [Planet {planetName = "Mining Colony", planetPos = (300.0,0.0), planetEffect = EffectNone},Planet {planetName = "Startport Alpha", planetPos = (0.0,0.0), planetEffect = EffectFuelGain}], but got [Planet {planetName = "Mining Colony", planetPos = (300.0,0.0), planetEffect = EffectNone},Planet {planetName = "Starport Alpha", planetPos = (0.0,0.0), planetEffect = EffectFuelGain}].
+Cases: 18  Tried: 4  Errors: 0  Failures: 1Cases: 18  Tried: 5  Errors: 0  Failures: 1Cases: 18  Tried: 6  Errors: 0  Failures: 1Cases: 18  Tried: 7  Errors: 0  Failures: 1Cases: 18  Tried: 8  Errors: 0  Failures: 1Cases: 18  Tried: 9  Errors: 0  Failures: 1Cases: 18  Tried: 10  Errors: 0  Failures: 1Cases: 18  Tried: 11  Errors: 0  Failures: 1Cases: 18  Tried: 12  Errors: 0  Failures: 1Cases: 18  Tried: 13  Errors: 0  Failures: 1Cases: 18  Tried: 14  Errors: 0  Failures: 1Cases: 18  Tried: 15  Errors: 0  Failures: 1Cases: 18  Tried: 16  Errors: 0  Failures: 1Cases: 18  Tried: 17  Errors: 0  Failures: 1                                            Cases: 18  Tried: 18  Errors: 0  Failures: 1
+
+
+
+star-routes> Test suite star-routes-test failed
+
+Error: [S-7282]
+       Stack failed to execute the build plan.
+       
+       While executing the build plan, Stack encountered the error:
+       
+       Error: [S-1995]
+       Test suite failure for package star-routes-0.1.0.0
+           star-routes-test:  exited with: ExitFailure 1
+       Logs printed to console
+       
